@@ -1,6 +1,7 @@
 /* ---------- google fonts ---------- */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* font-family: 'Lato', sans-serif; */
 
 *,
@@ -116,8 +117,11 @@ hr {
 .header-trademark  {
     color: #d4d5d9;
     font-size: 14.5px;
+    font-size: 14px;
     font-weight: 800;
     letter-spacing: .5px;
+    letter-spacing: 0;
+    font-family: 'Lexend Zetta', sans-serif;
 }
 
 .user-control {
@@ -565,6 +569,12 @@ hr {
     font-weight: 700;
     margin: 24px 0 0;
     margin: 28px 0 0;
+    /* letter-spacing: 1.5px; */
+    /* font-size: 19px; */
+    font-size: 19px;
+    font-weight: 800;
+    letter-spacing: 0;
+    font-family: 'Lexend Zetta', sans-serif;
 }
 
 .server-info__subtitle {
@@ -1004,6 +1014,7 @@ article p:last-child {
     color: rgb(255 255 255 / 60%);
     color: #86a0e6;
     color: rgba(134, 160, 230, 0.8);
+    color: rgba(134, 160, 230, 1);
 }
 
 article img {
@@ -1786,7 +1797,9 @@ p.ref {
     width: 8.75%;
     display: block;
     margin: 0 auto .375rem auto;
-    border: 2px solid #4d5056;
+    border: 2px solid transparent;
+    background-color: rgba(58, 60, 65, 0.9);
+    ;
     padding: 7px;
     /* margin: 0.25rem auto .425rem auto; */
 }
